@@ -1,0 +1,36 @@
+fx_version 'adamant'
+
+game 'gta5'
+
+description 'ESX Identity redesigned by JGUsman#5140'
+lua54 'yes'
+version '1.9.4'
+
+shared_scripts {
+	'@es_extended/imports.lua',
+	'@es_extended/locale.lua',
+	'@ox_lib/init.lua'
+}
+
+server_scripts {
+	'@oxmysql/lib/MySQL.lua',
+	'locales/*.lua',
+	'config.lua',
+	'server/main.lua'
+}
+
+client_scripts {
+	'locales/*.lua',
+	'config.lua',
+	'client/main.lua'
+}
+
+ui_page 'html/index.html'
+
+files {
+	'html/index.html',
+	'html/js/script.js',
+	'html/css/style.css',
+}
+
+dependency 'es_extended'
