@@ -1,4 +1,5 @@
-<h1 align='center'>[ESX] Identity</a></h1><p align='center'><b><a href='https://discord.esx-framework.org/'>Discord</a> - <a href='https://documentation.esx-framework.org/legacy/installation'>Documentation</a></b></h5>
+## 👉 Join the community
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/HWejPwZgvQ)
 
 A Core Resource that Allows the player to Pick their characters, Name, Gender, Height and Date-of-birth.
 
