@@ -43,7 +43,6 @@ if not Config.UseDeferrals then
     end
 
     RegisterNetEvent('esx_identity:showRegisterIdentity', function()
-        TriggerEvent('JG:loader', false)
         TriggerEvent('esx_skin:resetFirstSpawn')
         while not ready do
             print('Waiting for  esx_identity NUI..')
